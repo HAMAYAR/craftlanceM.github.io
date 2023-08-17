@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+}
+.firstSection{
+    height:100vh;
+    width: 100%;
+    background-image: url(photo-1484417894907-623942c8ee29.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18%;
+    background-color: rgb(41, 41, 63);
+    color: white;
+}
+.fromeLeft{
+    display: flex;
+}
+.fb{
+    padding: 8px 8px;
+}
+.fromeRight{
+    display: flex;
+}
+.fb:hover{
+    color: rgb(75, 186, 75);
+    cursor: pointer;
+}
+/*nav 2*/
+.navbar-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 18%;
+    background-color: rgb(185, 185, 214);
+}
+.logo{
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(81, 79, 79);
+  text-decoration: none;  
+}
+.logo:hover{
+    color: rgba(132, 81, 199, 0.4);
+}
+.links{
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.subMenu{
+    display: none;
+    position: absolute;
+    min-height: 115px;
+    z-index: 1;
+    background-color: #f1f1f1;
+}
+.subMenu a{
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+}
+.btn button{
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#c4{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 6px 10px;
+    background-color: transparent;
+    font-size: 16px;
+}
+#c4:hover{
+    background-color: rgba(41, 41, 63, 0.308);
+    transition-duration:0.3s;
+    cursor: pointer;
+}
+
+.btn:hover .subMenu{
+    display: block;
+}
+.subMenu a:hover{
+    background-color: rgba(132, 81, 199, 0.4);
+}
+.content1{
+    margin: 90px 43% 0 18%;
+    font-weight: 500;
+    color: black;
+}
+.content1 h1{
+    font-size: 32px;
+    margin: 10px;
+}
+.content1 p{
+    margin: 90px 180px 0 60px;
+    font-size: 24px;
+}
+.inputeText{
+    margin: 7% 43% 0 22%;
+}
+.inputeText input{
+    padding: 10px 30px;
+    background-color: rgba(41, 41, 63, 0.331);
+    color: white;
+    border: 2px solid rgba(185, 185, 214, 0.642);
+    border-radius: 15px 0 0 15px;
+}
+.inputeText button{
+    background-color: rgba(2, 168, 2, 0.518);
+    color: white;
+    border: 2px solid rgba(185, 185, 214, 0.642);
+    padding: 10px 30px;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+.inputeText p{
+    font-size: 20px;
+    padding-top: 25px;
+}
+.inputeText button:hover{
+    background-color: rgba(0, 110, 0, 0.897);
+    transition-duration: 0.3s;
+}
+.secondSection{
+    height: auto;
+    width: auto;
+    background-image: url(empty-monochromatic-light-blue-background_23-2148667812.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 0 30% 5% 30%;
+}
+.second2 h1{
+    font-size: 36px;
+    padding-top: 40px;
+    font-weight: 100;
+    text-align: center;
+}
+.rectangle{
+    position: relative;
+    height: 250px;
+    width: 520px;
+    background-color: white;
+    margin: 70px auto auto auto;
+}
+.rec-icon{
+    text-align: center;
+    color: gray;
+    padding-top: 25px;
+    font-size: 24px;
+}
+#ic1{
+    padding-left: 120px;
+    margin-top: 40px;
+    font-size: 42px;
+    color: rgb(28, 158, 28);
+}
+.tx{
+    position: absolute;
+   font-size: 28px;
+   padding-left: 45px;
+   margin-top: 20px;
+}
+.list {
+    position: absolute;
+}
+.list li{
+    margin-left: 220px;
+    font-size: 20px;
+}
+.threeIcon{
+   display: flex;
+   margin-top: 80px;
+}
+.icoo {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 35px;
+    border: 1px solid black;
+}
+.icoo dd{
+    position: absolute;
+    padding-top: 45px;
+}
+.icoo:hover{
+    background-color: rgba(8, 167, 8, 0.333);
+    transition-duration: 0.2s;
+}
+/*flex section*/
+.felxs{
+    width: 100%;
+    height: auto;
+}
+.felxs h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 200;
+}
+.threebtn{
+    margin: auto;
+    text-align: center;
+    outline: none;
+    margin-top: 3%;
+}
+.button-1{
+    width: 200px;
+    padding: 5px 0;
+    position: relative;
+    border-radius: 0 0 0 45px;
+    border: 1px solid rgba(128, 128, 128, 0.532);
+    font-size: 18px;
+    background-color: rgba(147, 62, 227, 0.299);
+}
+.button-2{
+    width: 200px;
+    padding: 5px 0;
+    position: relative;
+    border-radius: 0 45px 0 0;
+    border: 1px solid rgba(128, 128, 128, 0.532);
+    font-size: 18px;
+    background-color: rgba(128, 128, 128, 0.217);
+}
+.button-or{
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.637);
+    z-index: 1;
+    padding: 5px;
+    border-radius: 35px;
+    font-size: 18px;
+    background-color: rgba(0, 128, 0, 0.345);
+    color: black;
+    font-weight: bold;
+    width: 80px;
+}
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 18%;
+}
+.fx-1{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 10px 18px #888888;   
+}
+.thed{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: 2px solid rgba(23, 183, 23, 0.763);
+    margin: auto;
+    font-size: 26px;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+.permonth{
+    text-align:center;
+    font-size: 16px;
+    color: rgb(171, 169, 169);
+}
+.fx-1>h1{
+    border-bottom: 1px solid rgba(161, 160, 160, 0.824);
+    margin: 40px 20px 20px;
+}
+.fx-1>p{
+    text-align: center;
+    margin-top: 25px;
+}
+.fxbtn{
+    outline: none;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.667);
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 45px auto auto 65px;
+    text-align: center;
+}
+.fxbtn:hover{
+    background-color: rgba(43, 210, 43, 0.422);
+    transition-duration: 0.2s;
+}
+.lastsection{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.164);
+}
+.lastsection>h1{
+    text-align: center;
+    font-size: 28px;
+    margin: 0 18%;
+    padding-top: 40px;
+}
+.lastContainer{
+    display: flex;
+    position: relative;
+    margin: 0 18%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.fx-2{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(202, 206, 210);
+    margin: 10px;
+    
+}
+.fa-face-smile{
+   margin-left: 112px;
+   padding-top: 25px;
+    font-size: 40px;
+}
+.borderB{
+    margin: 40px 30px;
+    border-bottom: 1px solid rgba(91, 91, 91, 0.74);
+}
+.contentB>h2{
+    text-align: center;
+}
+.contentB>p{
+    text-align: center;
+    padding-top: 20px;
+}
+/* last section footer*/
+.footerS{
+    height: auto;
+    width: 100%;
+}
+.lastcontainer-2{
+    margin: 0 18%;
+    position: relative;
+    display: flex;
+    margin-top:30px ;
+}
+.lf-1{
+    text-align: center;
+    width: 300px;
+    height: 350px;
+}
+.lf-1>p{
+    padding-top: 30px;
+}
+.inputtext-2{
+    padding: 10px 15px;
+}
+.lfbtn{
+    padding: 10px 15px;
+    background-color: rgba(9, 179, 9, 0.616);
+    border: 2px solid rgba(9, 179, 9, 0.616);
+    cursor: pointer;
+}
+.lfbtn:hover{
+    background-color: rgb(4, 184, 4);
+}
+.flink{
+    text-align: center;
+    width: 250px;
+    height: 350px;
+}
+.flink>a{
+    color: #888888;
+}
+.flink>a:hover{
+    color: #414040;
+}
+.lfbtn>a{
+    color: rgb(150, 149, 149);
+    cursor: pointer;
+}
+.lablebtn{
+    padding-top: 40px;
+}
+.thefooter{
+    margin: 40px 18%;
+    display: flex;
+    justify-content:space-between;
+}
+.thefooter>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(159, 159, 159);
+}
+.thefooter>a:hover{
+    color: #414040;
+}
+.footer-2{
+    font-size: 15px;
+    color: #888888b7;
+}
+.fullborder{
+    border: 1px solid rgba(158, 157, 157, 0.6);
+}
